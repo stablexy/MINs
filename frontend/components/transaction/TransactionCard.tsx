@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { CheckCircle, XCircle, Play, RotateCcw, Clock, ArrowUpRight } from 'lucide-react'
+import { CheckCircle, Play, RotateCcw, Clock, ArrowUpRight } from 'lucide-react'
 import { formatAddress, formatBalance, formatRelativeTime, cn } from '@/lib/utils/format'
 import type { WalletTransaction } from '@/lib/hooks/useMultiSigWallet'
 
